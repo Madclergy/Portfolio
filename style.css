@@ -1,0 +1,56 @@
+/*Colors*/
+.c-pri{
+    color: #182139;
+}
+
+.c-sec{
+    color: #d98100;
+
+}
+
+.c-acc1{
+    color: #aba597;
+
+}
+
+.c-acc2{
+    color: #4b85a8;
+
+}
+
+.c-acc3{
+    color: #e1b200;
+}
+
+.dark-text {
+    color: black;
+
+}
+
+/*Effects*/
+ .transparent {
+    background: rgba(0,0,0,0);
+  }
+
+
+
+  .logo {
+    height: 100px;
+
+  }
+/*Mobile*/
+  @media screen and (max-width: 480px) {
+    .text {
+      font-size: 16px;
+    }
+
+    .logo {
+        height: 75px; 
+    
+      }
+  }
+
+ h2 {
+    font-family: 'Lobster', cursive;;
+
+  }
