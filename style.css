@@ -16,15 +16,6 @@ body {
 
 
 
-/*Component Colors*/
-
-.navbar i {
-    color: var(--primary-color);
-}
-
-.navbar li span {
-    color: var(--acc3-color);
-}
 
 /*Effects*/
  .transparent {
@@ -54,33 +45,8 @@ h2 {
     
     }
 
-    .navbar {
-        position: -webkit-sticky; /* Safari */
-        position: sticky;
-        top: 0;
-        box-shadow: 10px 10px 5px grey;
-    }
+
     
-    .navbar li {
-        float: right;
-        width: 100px;
-        height: 85px;
-    }
-    .navbar span {
-        display:block;
-        font-size: 2rem;
-        text-align: center;
-        white-space: nowrap
-    }
-
-    .nav-item span {
-        font-size: 1rem;
-    }
-
-    .navbar i {
-        font-size: 2em;
-    }
-
     .fa-stack-overflow {
         font-size: 2em;
     }
@@ -162,5 +128,3 @@ h2 {
     }
 
 }
-
-

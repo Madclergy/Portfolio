@@ -1,0 +1,66 @@
+:root 
+{
+    /*Colors*/
+    --primary-color: white;
+    --sec-color: #d98100;
+    --acc1-color: #aba597;
+    --acc2-color: #4b85a8;
+    --acc3-color: #E9C277;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    width: 100%;
+    margin: auto;
+    overflow:hidden;
+    background-color: var(--primary-color) ;
+}
+
+.logo img {
+    height: 200px;
+    margin: auto;
+
+}
+
+.navLeft{
+    background-color: var(--primary-color) ;
+
+}
+
+.navLeft i {
+    vertical-align: center;
+    padding: 10px;
+    margin: auto;
+    color: var(--sec-color)
+}
+
+.navRight {
+    background-color: var(--primary-color) ;
+
+}
+
+.navbar i {
+    color: var(--primary-color);
+}
+
+.navbar li span {
+    color: var(--acc3-color);
+}
+
