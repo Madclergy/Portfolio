@@ -8,59 +8,62 @@
     --acc3-color: #E9C277;
 }
 
-html,
-body {
-  height: 100%;
-}
-body {
-  margin: 0;
-  padding: 0;
-
-}
-
-
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    position: sticky;
-    top: 0;
+    align-items: center;
+
 }
 
 .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    margin: auto;
-    overflow:hidden;
+    overflow: visible;
     background-color: var(--primary-color) ;
+    
 }
 
 .logo img {
     height: 200px;
-    margin: auto;
-
+    margin: 0 auto;
 }
 
-.navLeft{
+.navLeft, .navRight {
+    display: flex;
+    width: 100%;
     background-color: var(--primary-color) ;
+    vertical-align: center;
+    justify-content: space-around; 
 
 }
 
-.navLeft i {
-    vertical-align: center;
+.navLeft i, .navRight i {
     padding: 10px;
-    margin: auto;
     color: var(--sec-color)
 }
 
-.navRight {
-    background-color: var(--primary-color) ;
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar ul li {
+     Float: left;
+     margin: auto;
 
 }
 
-.navbar i {
-    color: var(--primary-color);
-}
 
 .navbar li span {
     color: var(--acc3-color);
+
 }
+
+.navbar a:link {
+    text-decoration: none;
+}
+
+
 
